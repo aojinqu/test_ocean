@@ -139,18 +139,34 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="components\scenes\MainScene.cpp" />
+    <ClCompile Include="components\scenes\Skybox\3Dmath.cpp" />
+    <ClCompile Include="components\scenes\Skybox\dds.cpp" />
+    <ClCompile Include="components\scenes\Skybox\geometryutils.cpp" />
+    <ClCompile Include="components\scenes\Skybox\gl4ext.cpp" />
     <ClCompile Include="components\scenes\Skybox\NahidaScene.cpp" />
     <ClCompile Include="components\scenes\Skybox\PaimonScene.cpp" />
     <ClCompile Include="components\scenes\Skybox\shared.cpp" />
+    <ClCompile Include="components\scenes\Skybox\terrainquadtree.cpp" />
+    <ClCompile Include="components\scenes\Skybox\WaterScene.cpp" />
     <ClCompile Include="lib\include\glm\detail\glm.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\ToyEffects\CompilerOptions.h" />
     <ClInclude Include="include\ToyEffects\scenes\MainScene.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\3Dmath.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\dds.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\geometryutils.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\gl4ext.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\glcorearb.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\glext.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\glextensions.h" />
     <ClInclude Include="include\ToyEffects\scenes\Skybox\NahidaScene.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\orderedarray.hpp" />
     <ClInclude Include="include\ToyEffects\scenes\Skybox\PaimonScene.h" />
     <ClInclude Include="include\ToyEffects\scenes\Skybox\shared.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\terrainquadtree.h" />
+    <ClInclude Include="include\ToyEffects\scenes\Skybox\WaterScene.h" />
     <ClInclude Include="lib\include\glad\glad.h" />
     <ClInclude Include="lib\include\GLFW\glfw3.h" />
     <ClInclude Include="lib\include\GLFW\glfw3native.h" />
